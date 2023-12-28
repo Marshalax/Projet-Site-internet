@@ -14,7 +14,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 60vh; 
+    height: 100vh; 
 }
 
 
@@ -24,4 +24,17 @@ body {
     height: 282px;
     border-radius: 50%;
     margin: 20px;
+    /*Pour mettre les images des liens en forme de rond */
 }
+
+footer{
+    opacity: 20%;
+}
+
+
+#natation:hover{
+    opacity:50%;
+
+}
+
+
