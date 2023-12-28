@@ -1,6 +1,28 @@
-main{
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
     background: linear-gradient(90deg,#a8c0ff,#3f2b96);
 }
-.image_accueil{
 
+
+.image_accueil {
+    /* background-image: url('../Image/Accueil/image_accueil.jpg');  */
+    background-image: url("https://i0.wp.com/conseilsante.cliniquecmi.com/wp-content/uploads/2022/05/4-blessures-en-faisant-du-sport-conseil-sante.jpg?w=1200&ssl=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh; 
+}
+
+
+
+.lien{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 20px;
 }
