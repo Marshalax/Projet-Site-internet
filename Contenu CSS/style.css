@@ -62,6 +62,29 @@ body {
     text-align: center;
     font-size: 20px;
 }
+
+
+#img-natation  {
+    background-image: url("../Image/Natation/accueil_natation.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.titre_natation{
+    font-family: 'Unbounded', sans-serif;
+    position: absolute;
+    color: white;
+    top: 10%;
+    left: 43%;
+}
+
+.style_sous_titre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
 .encadre{
     background-color: rgb(63, 63, 250);
     width: 90%;
@@ -100,26 +123,8 @@ body {
     border-right: 1px solid black;
 }
 
-#img-natation  {
-    background-image: url("../Image/Natation/accueil_natation.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-
-.titre_natation{
-    font-family: 'Unbounded', sans-serif;
-    position: absolute;
-    color: white;
-    top: 10%;
-    left: 43%;
-}
-
-.style_sous_titre{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+a:hover{
+    color: yellow;
 }
 
 #img-escalade {
@@ -129,3 +134,21 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
 }
+
+.titre_escalade{
+    font-family: 'Unbounded', sans-serif;
+    position: absolute;
+    color: white;
+    top: 10%;
+    left: 43%;
+}
+
+.encadre_escalade{
+    background-color: rgba(150, 2, 150, 0.842);
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border-bottom: 10px solid grey;
+}
+
+
