@@ -10,7 +10,7 @@ body {
 }
 
 
-header{
+.header_accueil{
     background-image: url("https://i0.wp.com/conseilsante.cliniquecmi.com/wp-content/uploads/2022/05/4-blessures-en-faisant-du-sport-conseil-sante.jpg?w=1200&ssl=1");
     background-size: cover;
     background-position: center;
@@ -63,4 +63,9 @@ header{
     font-size: 20px;
 }
 
+.image_illustration img{
+    width: 50px;
+    height: auto;
 
+
+}
