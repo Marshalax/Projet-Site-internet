@@ -7,17 +7,19 @@
     <title>Le sport, une passion</title>
     <link rel="stylesheet" href="Contenu CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div class="image_accueil">
+        <!-- Le header permet de mettre l'image d'accueil en fond -->
+        <div class="titre_accueil">
+            <h1>L’évolution de mes pratiques sportives</h1>
         </div>
     </header>
     <main>
-        <h1>L’évolution de mes pratiques sportives.</h1>
+
         <h2>Introduction:</h2>
         <p>Bienvenue sur mon site dédié à l'évolution de mes pratiques sportives au cours du temps. Ce site vous
             permettra
@@ -28,7 +30,7 @@
             aussi en découvrir plus sur le sport concerné.<br>
             <span class="Introduction">Pour commencer, veuillez cliquer sur une image de sport de votre choix</span>
         </p>
-    
+
 
         <div class="lien">
             <nav>
@@ -40,6 +42,7 @@
                     </a>
                     <figcaption id="natation">Natation</figcaption>
                 </figure>
+                <!-- Image qui correspondant a un lien qui emmène vers une autre page-->
 
                 <figure>
                     <a href="Contenu HTML/Page escalade.html">
@@ -79,10 +82,13 @@
     </footer>
 
     <script>
+
         function afficherLegende(element) {
+            /* La fonction prend en paramètre un identifiant et fais apparaître un titre lorsque qu'on survole l'image correspondant à l'identifiant*/
             document.getElementById(element).style.display = "block";
         }
         function cacherLegende(element) {
+            /* La fonction prend en paramètre un identifiant et fais disparaître un titre lorsque qu'on ne survole plus l'image correspondant à l'identifiant*/
             document.getElementById(element).style.display = "none";
         }
     </script>
