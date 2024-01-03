@@ -6,7 +6,7 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(90deg, #a8c0ff, #3f2b96);
+    background: grey;
 }
 
 
@@ -64,8 +64,18 @@ body {
 }
 
 .image_illustration img{
-    width: 50px;
+    width: 35%;
     height: auto;
+}
 
+.encadre{
+    background-color: rgb(63, 63, 250);
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border-bottom: 10px solid grey;
+} 
 
+.contenu_encadre{
+    display: flex;
 }
