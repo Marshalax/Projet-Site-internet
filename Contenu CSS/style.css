@@ -29,11 +29,11 @@ body {
     font-family: 'Unbounded', sans-serif;
     position: absolute;
     color: white;
-    top: 30%;
+    top: 10%;
     left: 25%;
 }
 
-.introduction{
+.style_introduction{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 45px;
@@ -46,7 +46,7 @@ body {
 
 .lien {
     justify-content: center;
-    margin-bottom: 205px;
+    margin-bottom: 155px;
     /* Tu peux modif comme tu veux ça c l'écart entre la div et le footer la je l'ai mis gros pour mes tests mais faut changer à ta guise */
 }
 
@@ -78,4 +78,53 @@ body {
 
 .contenu_encadre{
     display: flex;
+}
+
+
+.contenu_encadre div {
+    flex: 1;
+}
+
+.text {
+    width: 60%;
+}
+
+.image_illustration {
+    text-align: center;
+}
+
+.image_illustration img {
+    width: 70%;
+}
+
+.text p {
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+.text {
+    border-right: 1px solid black;
+}
+
+#img-natation  {
+    background-image: url("../Image/Natation/accueil_natation.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.titre_natation{
+    font-family: 'Unbounded', sans-serif;
+    position: absolute;
+    color: white;
+    top: 10%;
+    left: 43%;
+}
+
+.style_sous_titre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
