@@ -1,11 +1,12 @@
 * {
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 body {
     min-height: 100vh;
-    background: linear-gradient(90deg,#a8c0ff,#3f2b96);
+    background: linear-gradient(90deg, #a8c0ff, #3f2b96);
 }
 
 
@@ -14,17 +15,43 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh; 
+    height: 100vh;
 }
 
 
+.Introduction{
+    font-weight: 700;
+}
 
-.lien nav a img{
+h1{
+    font-family: 'Unbounded', sans-serif;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lien,
+.lien nav {
+    display: flex;
+}
+
+.lien {
+    justify-content: center;
+    margin-bottom: 190px;
+    /* Tu peux modif comme tu veux ça c l'écart entre la div et le footer la je l'ai mis gros pour mes tests mais faut changer à ta guise */
+}
+
+.lien nav figure a img {
     width: 282px;
     height: 282px;
     border-radius: 50%;
-    margin: 20px;
-    /*Pour mettre les images des liens en forme de rond */
+    margin: 20px 20px 0px 20px;
 }
 
+.lien nav figure figcaption {
+    display: none;
+    text-align: center;
+    font-size: 20px;
+}
 

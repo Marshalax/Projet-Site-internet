@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le sport, une passion</title>
     <link rel="stylesheet" href="Contenu CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,31 +25,68 @@
             Sur ce site je vais
             vous parler de 4 sports, vous pourrez retrouver mes avis et expériences de ces sports
             mais
-            aussi en découvrir plus sur le sport concerné.
+            aussi en découvrir plus sur le sport concerné.<br>
+            <span class="Introduction">Pour commencer, veuillez cliquer sur une image de sport de votre choix</span>
+        </p>
+    
 
         <div class="lien">
             <nav>
-                <a href="Contenu HTML/Page natation.html">
-                    <img src="Image/Natation/natation_lien.jpg" alt="logo resprésentant la natation" title="Natation">
-                </a>
-                <a href="Contenu HTML/Page escalade.html">
-                    <img src="Image/Escalade/escalade_lien.jpg" alt="logo resprésentant l'escalade" title="Escalade">
-                </a>
-                <a href="Contenu HTML/Page escrime.html">
-                    <img src="Image/Escrime/escrime_lien.jpg" alt="logo resprésentant l'escrime" title="Escrime">
-                </a>
-                <a href="Contenu HTML/Page Basket.html">
-                    <img src="Image/Basketball/basket_lien.jpg" alt="logo resprésentant le basket" title="Basketball">
-                </a>
+                <figure>
+                    <a href="Contenu HTML/Page natation.html">
+                        <img src="Image/Natation/natation_lien.jpg" alt="logo resprésentant la natation"
+                            title="Natation" onmouseover="afficherLegende('natation')"
+                            onmouseout="cacherLegende('natation')">
+                    </a>
+                    <figcaption id="natation">Natation</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="Contenu HTML/Page escalade.html">
+                        <img src="Image/Escalade/escalade_lien.jpg" alt="logo resprésentant l'escalade" title="Escalade"
+                            onmouseover="afficherLegende('escalade')" onmouseout="cacherLegende('escalade')">
+                    </a>
+                    <figcaption id="escalade">Escalade</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="Contenu HTML/Page escrime.html">
+                        <img src="Image/Escrime/escrime_lien.jpg" alt="logo resprésentant l'escrime" title="Escrime"
+                            onmouseover="afficherLegende('escrime')" onmouseout="cacherLegende('escrime')">
+                    </a>
+                    <figcaption id="escrime">Escrime</figcaption>
+                </figure>
+
+                <figure>
+                    <a href="Contenu HTML/Page Basket.html">
+                        <img src="Image/Basketball/basket_lien.jpg" alt="logo resprésentant le basket"
+                            title="Basketball" onmouseover="afficherLegende('basket')"
+                            onmouseout="cacherLegende('basket')">
+                    </a>
+                    <figcaption id="basket">Basket</figcaption>
+                </figure>
+
             </nav>
         </div>
     </main>
 
     <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, quo eaque hic dignissimos voluptatum
-            corporis officiis molestias ut debitis eligendi voluptatem itaque repudiandae distinctio suscipit laborum
-            laboriosam neque perspiciatis asperiores?</p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo perspiciatis nisi, ad nemo ab tenetur
+            provident laborum excepturi saepe alias eos possimus illum impedit mollitia sapiente consequatur in veniam
+            autem!
+        </p>
     </footer>
+
+    <script>
+        function afficherLegende(element) {
+            document.getElementById(element).style.display = "block";
+        }
+        function cacherLegende(element) {
+            document.getElementById(element).style.display = "none";
+        }
+    </script>
+
 </body>
 
 
