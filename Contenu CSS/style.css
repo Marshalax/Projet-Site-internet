@@ -17,12 +17,14 @@ header{
     background-repeat: no-repeat;
     height: 100vh;
 }
-
-
-.Introduction{
-    font-weight: 700;
+.paragraphe_intro{
+    font-size: 20px;
 }
 
+.conseil{
+    font-weight: bold;
+    font-size: 25px;
+}
 .titre_accueil{
     font-family: 'Unbounded', sans-serif;
     position: absolute;
@@ -31,9 +33,10 @@ header{
     left: 25%;
 }
 
-h2{
+.introduction{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size: 45px;
 }
 
 .lien,
