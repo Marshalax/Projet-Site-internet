@@ -62,12 +62,6 @@ body {
     text-align: center;
     font-size: 20px;
 }
-
-.image_illustration img{
-    width: 35%;
-    height: auto;
-}
-
 .encadre{
     background-color: rgb(63, 63, 250);
     width: 90%;
@@ -80,7 +74,9 @@ body {
     display: flex;
 }
 
-
+.image_illustration img {
+    width: 70%;
+}
 .contenu_encadre div {
     flex: 1;
 }
@@ -93,9 +89,6 @@ body {
     text-align: center;
 }
 
-.image_illustration img {
-    width: 70%;
-}
 
 .text p {
     font-size: 20px;
@@ -127,4 +120,12 @@ body {
 .style_sous_titre{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
+}
+
+#img-escalade {
+    background-image: url("../Image/Escalade/accueil_escalade.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
