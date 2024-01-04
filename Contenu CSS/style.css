@@ -74,7 +74,7 @@ body {
 }
 
 
-.titre_natation{
+.titre_page{
     font-family: 'Unbounded', sans-serif;
     position: absolute;
     color: white;
@@ -136,14 +136,6 @@ a:hover{
     height: 100vh;
 }
 
-.titre_escalade{
-    font-family: 'Unbounded', sans-serif;
-    position: absolute;
-    color: white;
-    top: 10%;
-    left: 43%;
-}
-
 .encadre_escalade{
     background-color: rgba(150, 2, 150, 0.842);
     width: 90%;
@@ -152,4 +144,19 @@ a:hover{
     border-bottom: 10px solid grey;
 }
 
+#img-escrime{
+    background-image: url("../Image/Escrime/accueil_escrime.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.encadre-escrime{
+    background-color: rgba(235, 9, 9, 0.685);
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border-bottom: 10px solid grey;
+}
 
