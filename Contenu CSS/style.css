@@ -59,7 +59,7 @@ body {
 }
 
 .lien nav figure figcaption {
-    display: none;
+    color: grey;
     text-align: center;
     font-size: 20px;
 }
@@ -160,3 +160,18 @@ a:hover{
     border-bottom: 10px solid grey;
 }
 
+#img-basket{
+    background-image: url("../Image/Basketball/accueil_basket.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.encadre_basket{
+    background-color: rgba(236, 72, 12, 0.767);
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    border-bottom: 10px solid grey;
+}

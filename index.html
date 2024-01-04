@@ -67,7 +67,7 @@
                             title="Basketball" onmouseover="afficherLegende('basket')"
                             onmouseout="cacherLegende('basket')">
                     </a>
-                    <figcaption id="basket">Basket</figcaption>
+                    <figcaption id="basket">Basketball</figcaption>
                 </figure>
 
             </nav>
@@ -83,14 +83,13 @@
     </footer>
 
     <script>
-
         function afficherLegende(element) {
             /* La fonction prend en paramètre un identifiant et fais apparaître un titre lorsque qu'on survole l'image correspondant à l'identifiant*/
-            document.getElementById(element).style.display = "block";
+            document.getElementById(element).style.color = "black";
         }
         function cacherLegende(element) {
             /* La fonction prend en paramètre un identifiant et fais disparaître un titre lorsque qu'on ne survole plus l'image correspondant à l'identifiant*/
-            document.getElementById(element).style.display = "none";
+            document.getElementById(element).style.color = "grey";
         }
     </script>
 
