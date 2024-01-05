@@ -37,7 +37,7 @@ body {
 .style_introduction{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .lien,
@@ -174,4 +174,15 @@ a:hover{
     height: auto;
     margin: 0 auto;
     border-bottom: 10px solid grey;
+}
+
+
+#lien_vers_accueil{
+    position: absolute;
+    right: 1%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 15px;
+
 }
