@@ -181,9 +181,12 @@ a:hover{
 #lien_vers_accueil {
     position: fixed;
     right: 1%;
-    height: 50%;
-
-
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
 }
 
 
