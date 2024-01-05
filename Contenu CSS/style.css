@@ -24,7 +24,7 @@ body {
 
 .conseil{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
 }
 .titre_accueil{
     font-family: 'Unbounded', sans-serif;
@@ -38,6 +38,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 35px;
+
 }
 
 .lien,
@@ -47,7 +48,7 @@ body {
 
 .lien {
     justify-content: center;
-    margin-bottom: 155px;
+    margin-bottom: 150px;
     /* Tu peux modif comme tu veux ça c l'écart entre la div et le footer la je l'ai mis gros pour mes tests mais faut changer à ta guise */
 }
 
@@ -177,12 +178,15 @@ a:hover{
 }
 
 
-#lien_vers_accueil{
-    position: absolute;
+#lien_vers_accueil {
+    position: fixed;
     right: 1%;
-    padding: 15px;
-    background-color: white;
-    border-radius: 15px;
-    font-size: 15px;
+    height: 50%;
 
+
+}
+
+
+.footer{
+    
 }
