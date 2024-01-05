@@ -6,8 +6,8 @@
 }
 
 body {
-    min-height: 100vh;
-    background: grey;
+    min-height: 100vh;/*définie une hauteur mminimal*/
+    background: grey;/* L'arrière plan devient gris*/
 }
 
 
@@ -16,18 +16,18 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100vh; /*ajout dune image en tant qu'arrière plan et mmodification de sa position et taille*/
 }
 .paragraphe_intro{
-    font-size: 18px;
+    font-size: 18px;/*taille du texte*/
 }
 
 .conseil{
-    font-weight: bold;
+    font-weight: bold;/*met en gras un texte*/
     font-size: 20px;
 }
 .titre_accueil{
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Unbounded', sans-serif;/*change le type de police d'un texte*/
     position: absolute;
     color: white;
     top: 10%;
@@ -191,22 +191,20 @@ a:hover{
 
 
 .footer{
-    border-top: 1px solid black;
+    border-top: 1px solid black; /*crée une bordure du haut*/
 }
 
 .titre_information_additionel{
     font-family: 'Unbounded', sans-serif;
-    position: absolute;
     color: white;
-    top: 10%;
-    left: 35%;
+    text-align: center;
+    margin-top: 100px;
     display:block
 }
 
-
 .contenu_en_savoir_plus{
     background-color: white;
-    border: 2px solid black ; /* créer une bordure */
-    margin: 2%;
+    border: 2px solid black ; /* crée un encadrée blanc*/
+    margin: 3%;
     display:block
 }
