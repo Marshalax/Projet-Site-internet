@@ -19,12 +19,12 @@ body {
     height: 100vh;
 }
 .paragraphe_intro{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .conseil{
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
 }
 .titre_accueil{
     font-family: 'Unbounded', sans-serif;
@@ -178,11 +178,11 @@ a:hover{
 }
 
 
-#lien_vers_accueil {
+.lien_vers_accueil {
     position: fixed;
     right: 1%;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     padding: 15px;
     margin: 10px;
     background-color: white;
@@ -191,5 +191,5 @@ a:hover{
 
 
 .footer{
-    
+    border-top: 1px solid black;
 }
