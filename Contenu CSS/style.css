@@ -6,20 +6,20 @@
 }
 
 body {
-    min-height: 100vh;/*définie une hauteur mminimal*/
-    background: grey;/* L'arrière plan devient gris*/
+    min-height: 100vh;/*définie une hauteur minimal*/
+    background: grey;
 }
 
 
 .header_accueil{
     background-image: url("https://i0.wp.com/conseilsante.cliniquecmi.com/wp-content/uploads/2022/05/4-blessures-en-faisant-du-sport-conseil-sante.jpg?w=1200&ssl=1");
     background-size: cover;/*définie une nouvelle taille de l'image*/
-    background-position: center;/*position au centre*/
+    background-position: center;
     background-repeat: no-repeat;/*affiche l'image une seule fois*/
     height: 100vh; /* La hauteur de cet élément sera égale à 100% de la hauteur de la vue.*/
 }
 .paragraphe_intro{
-    font-size: 18px;/*taille du texte*/
+    font-size: 18px;
 }
 
 .conseil{
@@ -51,7 +51,7 @@ body {
 
 .lien {
     justify-content: center;
-    margin-bottom: 175px;
+    margin-bottom: 150px;
     /*écart entre la div et le footer */
 }
 
@@ -213,4 +213,48 @@ a:hover{
     border: 2px solid black ; /* crée un encadrée blanc*/
     margin: 3%;
     display:block
+}
+
+.overlay {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+    color: rgb(218, 110, 8);
+    font-size: 22px;
+}
+
+.fleche {
+    animation: bounce 1s infinite;
+    font-size: 50px;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+}
+/*permet la création d'une fléche nous indiquant de défilez vers le bas*/
+
+.different_sous_titre {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.lien_information_additionnelle li{
+    list-style-type: disc;
 }
