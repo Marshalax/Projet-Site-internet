@@ -196,6 +196,10 @@ a:hover{
 .footer{
     border-top: 1px solid black; /*crée une bordure du haut*/
 }
+.lien_footer{
+    position: absolute;
+    right: 1%;
+}
 
 .titre_information_additionel{
     font-family: 'Unbounded', sans-serif;
