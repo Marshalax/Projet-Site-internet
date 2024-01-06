@@ -225,7 +225,7 @@ a:hover{
 }
 
 .fleche {
-    animation: bounce 1s infinite;
+    animation: bounce 1s infinite; /*Créer une animation de type bounce*/
     font-size: 50px;
 }
 
@@ -236,11 +236,11 @@ a:hover{
     50%,
     80%,
     100% {
-        transform: translateY(0);
+        transform: translateY(0); 
     }
 
     40% {
-        transform: translateY(-20px);
+        transform: translateY(-20px); /*à l'étape qui correspond à 60% et 40%, la fléche fais une translation en Y de 20px ou 10px vers le bas, pour qu'elle rebondissent deux fois */ 
     }
 
     60% {
