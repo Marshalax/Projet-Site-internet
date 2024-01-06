@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le sport, une passion</title>
-    <link rel="stylesheet" href="Contenu CSS/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="Contenu CSS/style.css"><!-- Permet de lier la page html avec la feuille de style css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--Permet d'importer une nouvelle police-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
 </head>
@@ -20,6 +20,7 @@
         <div class="overlay">
             <p>Défilez pour découvrir</p>
             <div class="fleche">&#8595;</div>
+            <!-- code html qui donne un caractère spécial, ici une fléche pointant vers le bas -->
         </div>
     </header>
     <main>
@@ -40,8 +41,10 @@
                         <img src="Image/Natation/natation_lien.jpg" alt="logo resprésentant la natation"
                             title="Natation" onmouseover="afficherLegende('natation')"
                             onmouseout="cacherLegende('natation')">
+                            <!-- Quand la souris survole lancer la fonction, quand la souris ne survole plus arrêter la fonction-->
                     </a>
                     <figcaption id="natation">Natation</figcaption>
+                    <!-- légende qui décrit son élèment parent "figure" -->
                 </figure>
                 <!-- Image qui correspondant a un lien qui emmène vers une autre page-->
 
@@ -87,11 +90,13 @@
                     <a href="mailto:axel.andrian.tessier@gmail.com">
                         Email
                     </a>
+                    <!-- mailto signifie que l'utilisateur va sur un mail et pas une page web -->
                 </div>
             </div>
         </nav>
     </footer>
     <script src="Contenu Java Script/style.js"></script>
+     <!-- Permet de lier la page avec la feuille Java Script -->
 </body>
 
 

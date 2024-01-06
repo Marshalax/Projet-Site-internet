@@ -256,5 +256,14 @@ a:hover{
 }
 
 .lien_information_additionnelle li{
-    list-style-type: disc;
+    font-size: 17px;
+    margin:1px;
+}
+.lien_information_additionnelle p{
+    font-size: 17px;
+    margin:1px;
+}
+.p_sur_moi{
+    font-size: 17px;
+    margin:1px;
 }
