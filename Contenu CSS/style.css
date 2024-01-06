@@ -1,8 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
-    flex-wrap: wrap;
+    overflow-x: hidden;/* enlève la disponibilité de scroll en x*/
+    flex-wrap: wrap;/*permet une disposition des élements soit en ligne soit en colonne pour éviter que des éléments sortent de la bordure*/
 }
 
 body {
@@ -13,10 +13,10 @@ body {
 
 .header_accueil{
     background-image: url("https://i0.wp.com/conseilsante.cliniquecmi.com/wp-content/uploads/2022/05/4-blessures-en-faisant-du-sport-conseil-sante.jpg?w=1200&ssl=1");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; /*ajout dune image en tant qu'arrière plan et mmodification de sa position et taille*/
+    background-size: cover;/*définie une nouvelle taille de l'image*/
+    background-position: center;/*position au centre*/
+    background-repeat: no-repeat;/*affiche l'image une seule fois*/
+    height: 100vh; /* La hauteur de cet élément sera égale à 100% de la hauteur de la vue.*/
 }
 .paragraphe_intro{
     font-size: 18px;/*taille du texte*/
@@ -24,11 +24,11 @@ body {
 
 .conseil{
     font-weight: bold;/*met en gras un texte*/
-    font-size: 20px;
+    font-size: 20px; 
 }
 .titre_accueil{
     font-family: 'Unbounded', sans-serif;/*change le type de police d'un texte*/
-    position: absolute;
+    position: absolute;/*positionné par rapport à son parent le plus proche,permet l'utilisation des propriétés top, left, bottom et right. */
     color: white;
     top: 10%;
     left: 25%;
@@ -36,7 +36,7 @@ body {
 
 .style_introduction{
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: center;/* spécifier l'alignement horizontal du texte à l'intérieur d'un élément,ici alignement centré*/
     font-size: 35px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -46,20 +46,20 @@ body {
 
 .lien,
 .lien nav {
-    display: flex;
+    display: flex;/* active le mode de boite flexible*/
 }
 
 .lien {
     justify-content: center;
     margin-bottom: 175px;
-    /* Tu peux modif comme tu veux ça c l'écart entre la div et le footer la je l'ai mis gros pour mes tests mais faut changer à ta guise */
+    /*écart entre la div et le footer */
 }
 
 .lien nav figure a img {
     width: 282px;
     height: 282px;
-    border-radius: 50%;
-    margin: 20px 20px 0px 20px;
+    border-radius: 50%;/*pour rendre les coins rond pour faire un cercle*/
+    margin: 20px 20px 0px 20px;/*définie les marges*/
 }
 
 .lien nav figure figcaption {
@@ -110,7 +110,7 @@ body {
 }
 
 .text {
-    width: 60%;
+    border-right: 1px solid black;
 }
 
 .image_illustration {
@@ -122,10 +122,6 @@ body {
     font-size: 20px;
     margin: 10px;
 
-}
-
-.text {
-    border-right: 1px solid black;
 }
 
 a:hover{
@@ -197,15 +193,18 @@ a:hover{
     border-top: 1px solid black; /*crée une bordure du haut*/
 }
 .lien_footer{
-    position: absolute;
-    right: 1%;
+    display: flex;
+    justify-content: space-between;/*permet de faire un espacement entre le premier lien et les deux autres*/
+    font-size: 20px;
+    padding-bottom:20px;/*ajoute de l'espace vers le bas a l'intérieur de l'élément*/
+
 }
 
 .titre_information_additionel{
     font-family: 'Unbounded', sans-serif;
     color: white;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 100px;/*pour créer de l'espace*/
     display:block
 }
 
