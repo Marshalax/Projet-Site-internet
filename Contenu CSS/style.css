@@ -31,7 +31,7 @@ body {
     position: absolute;/*positionné par rapport à son parent le plus proche,permet l'utilisation des propriétés top, left, bottom et right. */
     color: white;
     top: 10%;
-    left: 25%;
+    left: 23%;
 }
 
 .style_introduction{
